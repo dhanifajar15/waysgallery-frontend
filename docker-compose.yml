@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  waysgallery-frontend:
+     container_name: waysgallery-frontend
+     image: dhanifajar15/waysgallery-frontend
+     stdin_open: true
+     ports:
+       - 3000:5000
